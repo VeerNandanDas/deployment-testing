@@ -1,0 +1,19 @@
+{
+  "name": "ws-server",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "@repo/database": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node-dev": "^2.0.0",
+    "@types/ws": "^8.5.10",
+    "@repo/typescript-config": "workspace:*"
+  }
+}
